@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: left;
+        }
+
+        header a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .details {
+            text-align: center;
+        }
+
+        .moving-text {
+            display: inline-block;
+            animation: moveLeftToRight 4s infinite linear;
+        }
+
+        @keyframes moveLeftToRight {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+
+        section {
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Sign Up</a>
+    <a href="#">Login</a>
+
+
+</header>
+
+<div class="profile-container">
+    <img src="profile%202.jpg" alt="Profile Picture" class="profile-pic">
+    <div class="details">
+        <h2>Ali Asghar</h2>
+        <p class="moving-text">It is better to fail in originality than to succeed in imitation</p>
+    </div>
+</div>
+
+<section>
+    <h2>About</h2>
+ </section>
+<pre>
+   <b>
+       Currently, I'm pursuing my degree in computer science at IBA University Sukkur, where
+       I'm gaining a deep understanding of programming languages, algorithms, and other different
+       languages. I enjoy tackling complex problems and exploring new technologies to create
+       innovative solutions. In my free time, you'll often find me coding, experimenting with
+       projects, or staying up to date with the latest tech trends. I'm excited to discuss anything
+       related to computer science and technology!"</b>
+</pre>
+<section>
+    <h2>Skills</h2>
+    <pre>
+       <b>
+           I possess extensive experience in programming, particularly in Java, HTML,
+           and C++. My proficiency in these languages has been honed through practical
+           application and diverse projects, showcasing my ability to navigate and excel
+           in the realms of software development and web programming</b>
+    </pre>
+    <ul>
+        <li>
+            <h4>C++</h4>
+        </li>
+        <li>
+            <h4>HTML</h4>
+        </li>
+        <li>
+            <h4>Java</h4>
+        </li>
+    </ul>
+</section>
+
+<footer>
+    <a href="#">LinkedIn</a>
+    <a href="#">Facebook</a>
+    <a href="#">Gmail</a>
+    <a href="#">Whatsapp</a>
+    <a href="#">Youtube</a>
+</footer>
+
+</body>
+</html>
